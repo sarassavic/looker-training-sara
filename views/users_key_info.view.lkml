@@ -18,6 +18,7 @@ view: users_key_info {
   }
 
   dimension: id {
+    primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
   }
